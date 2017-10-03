@@ -1,0 +1,10 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<jboss xmlns="http://www.jboss.com/xml/ns/javaee" xmlns:jee="http://java.sun.com/xml/ns/javaee"
+	xmlns:mdb="urn:resource-adapter-binding">
+	<jee:assembly-descriptor>
+		<mdb:resource-adapter-binding>
+			<jee:ejb-name>SimpleMessageBean</jee:ejb-name>
+			<mdb:resource-adapter-name>remotejms-ra</mdb:resource-adapter-name>
+		</mdb:resource-adapter-binding>
+	</jee:assembly-descriptor>
+</jboss>
